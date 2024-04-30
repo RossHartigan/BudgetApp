@@ -1,0 +1,241 @@
+﻿<Window x:Class="POE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POE"
+        mc:Ignorable="d" FontFamily="Segoe UI Historic"
+        Title="Budget Planning" Height="600" Width="1400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="20" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="50" />
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Column="3" Grid.Row="1" FontSize="20" FontWeight="Bold">
+            Budget Planning Program
+        </TextBlock>
+
+        <Label Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center">
+            Gross Monthly Income : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="3" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="grossMonthlyIncome">
+        </TextBox>
+
+        <TextBlock Grid.Column="1" Grid.Row="5" FontSize="14" FontWeight="Bold">
+            Enter your following Expenses :
+        </TextBlock>
+
+        <Label Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center">
+            Tax Reduction : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="7" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="taxReduction">
+        </TextBox>
+
+        <Label Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center">
+            Groceries : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="9" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="groceriesExpense">
+        </TextBox>
+
+        <Label Grid.Column="1" Grid.Row="11" HorizontalAlignment="Center">
+            Utilities : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="11" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="utilitiesExpense">
+        </TextBox>
+
+        <Label Grid.Column="1" Grid.Row="13" HorizontalAlignment="Center">
+            Travel : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="13" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="travelExpense">
+        </TextBox>
+
+        <Label Grid.Column="1" Grid.Row="15" HorizontalAlignment="Center">
+            Phone : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="15" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="phoneExpense">
+        </TextBox>
+
+        <Label Grid.Column="1" Grid.Row="17" HorizontalAlignment="Center">
+            Other : R
+        </Label>
+
+        <TextBox Grid.Column="3" Grid.Row="17" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="otherExpense"></TextBox>
+
+        <Button Grid.Column="1" Grid.Row="19" Content="Submit Expenses" x:Name="expenseSubmit" FontSize="16" Width="150" Height="25" Click="expenseSubmit_Click" VerticalAlignment="Top"></Button>
+
+        <TextBox Grid.Column="1" Grid.Row="19" VerticalAlignment="Center" TextWrapping="Wrap" AcceptsReturn="True" Width="100" Height="125"> 
+            Click the button below to show the savings options. 
+            The saving report will be at the bottom of the final report
+        </TextBox>
+
+        <RadioButton  Grid.Column="1" Grid.Row="19" Content="Save" x:Name="savingsSubmit" FontSize="14" Width="150" Height="25" Click="savingsSubmit_Click" VerticalAlignment="Bottom"></RadioButton>
+
+        <RadioButton  Grid.Column="1" Grid.Row="21" Content="Save Cancel" x:Name="savingsCancel" FontSize="14" Width="150" Height="25" Click="savingsCancel_Click" VerticalAlignment="Top"></RadioButton>
+
+        <TextBlock Grid.Column="5" Grid.Row="3" FontWeight="Bold">
+            Enter your Living Status :
+        </TextBlock>
+
+        <RadioButton Grid.Column="5" Grid.Row="5" GroupName="Living" HorizontalAlignment="Left" x:Name="rentingRadioButton" Click="rentingRadioButton_Click" Height="18" VerticalAlignment="Bottom">Renting</RadioButton>
+        <RadioButton Grid.Column="5" Grid.Row="7" GroupName="Living" HorizontalAlignment="Left" x:Name="homeLoanRadioButton" Click="homeLoanRadioButton_Click" Height="18" VerticalAlignment="Bottom">Home Loan</RadioButton>
+
+        <Button Grid.Column="5" Grid.Row="9" Content="Submit Living Status" x:Name="livingStatusSubmit" FontSize="12" Width="125" Height="20" Click="livingStatusSubmit_Click" VerticalAlignment="Center" IsEnabled="False"></Button>
+
+        <TextBlock Grid.Column="5" Grid.Row="11" FontWeight="Bold">
+            Would you like to add a car Payment :
+        </TextBlock>
+
+        <RadioButton Grid.Column="5" Grid.Row="13" GroupName="Car" HorizontalAlignment="Left" x:Name="yesCarRadioButton" Click="yesCarRadioButton_Click" Height="18" VerticalAlignment="Bottom">Yes</RadioButton>
+        <RadioButton Grid.Column="5" Grid.Row="15" GroupName="Car" HorizontalAlignment="Left " x:Name="noCarRadioButton" Click="noCarRadioButton_Click" Height="18" VerticalAlignment="Bottom">No</RadioButton>
+
+        <Button Grid.Column="5" Grid.Row="17" Content="Submit Car Status" x:Name="carStatusSubmit" FontSize="12" Width="125" Height="20" Click="carStatusSubmit_Click" VerticalAlignment="Center" IsEnabled="False"></Button>
+
+        <TextBox Grid.Column="3" Grid.Row="19" AcceptsReturn="True" Width="250" Height="200" TextWrapping="Wrap" FontSize="14" x:Name="reportBox" VerticalScrollBarVisibility="Auto">
+            Please make sure that you have entered values in the correct order.
+            First the expenses then the living status and then the car status and then
+            you can generate the final report.
+        </TextBox>
+
+        <Button Grid.Column="3" Grid.Row="21" Content="Generate Report" x:Name="reportButton" FontSize="16" Width="200" Height="30" Click="reportButton_Click" IsEnabled="False"></Button>
+
+        <Label Grid.Column="7" Grid.Row="3" HorizontalAlignment="Center" Visibility="Hidden" x:Name="homePriceLabel">
+            Home Purchase Price : R
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="3" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="homePrice" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="3" HorizontalAlignment="Center" Visibility="Hidden" x:Name="rentingLabel">
+            Rental per month : R
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="3" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="rentalInput" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="5" HorizontalAlignment="Center" Visibility="Hidden" x:Name="depositLabel">
+            Deposit Paid : R
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="5" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="depositPrice" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="7" HorizontalAlignment="Center" Visibility="Hidden" x:Name="rateLabel">
+            Rate % : 
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="7" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="rate" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="9" HorizontalAlignment="Center" Visibility="Hidden" x:Name="monthsLabel">
+            Months (between 240 and 360) : 
+        </Label>       
+
+        <TextBox Grid.Column="9" Grid.Row="9" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="months" Visibility="Hidden">
+        </TextBox>        
+
+        <Label Grid.Column="7" Grid.Row="11" HorizontalAlignment="Center" Visibility="Hidden" x:Name="carModelLabel">
+            Name of the car model : 
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="11" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="carModelName" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="13" HorizontalAlignment="Center" Visibility="Hidden" x:Name="carPurchaseLabel">
+            Purchase Price : R
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="13" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="carPurchaseInput" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="15" HorizontalAlignment="Center" Visibility="Hidden" x:Name="carDepositLabel">
+            Deposit Paid : R
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="15" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="carDepositPrice" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="17" HorizontalAlignment="Center" Visibility="Hidden" x:Name="carRateLabel">
+            Rate % :
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="17" Width="125" HorizontalAlignment="Left" VerticalAlignment="Center" x:Name="carRate" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="7" Grid.Row="19" HorizontalAlignment="Center" x:Name="insuranceLabel" Visibility="Hidden">
+            Insurance per Month : R 
+        </Label>
+
+        <TextBox Grid.Column="9" Grid.Row="19" Width="125" HorizontalAlignment="Left" VerticalAlignment="Top" x:Name="carInsurance" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="5" Grid.Row="19" Height="30" Width="100" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="savingsAmountLabel" Visibility="Hidden">
+            Savings Amount : R 
+        </Label>
+
+        <TextBox Grid.Column="7" Grid.Row="19" Height="25" Width="150" VerticalAlignment="Center" HorizontalAlignment="Left" x:Name="savingsAmountInput" Visibility="Hidden">            
+        </TextBox>
+
+        <Label Grid.Column="5" Grid.Row="19" Height="30" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Center" x:Name="savingsPeriodLabel" Visibility="Hidden">
+            Savings Period (years) : 
+        </Label>
+
+        <TextBox Grid.Column="7" Grid.Row="19" Height="25" Width="150" VerticalAlignment="Bottom" HorizontalAlignment="Left" x:Name="savingsPeriodInput" Visibility="Hidden">
+        </TextBox>
+
+        <Label Grid.Column="5" Grid.Row="21" Height="30" Width="125" VerticalAlignment="Top" HorizontalAlignment="Center" x:Name="savingsInterestLabel" Visibility="Hidden">
+            Savings Interest % : 
+        </Label>
+
+        <TextBox Grid.Column="7" Grid.Row="21" Height="25" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" x:Name="savingsInterestInput" Visibility="Hidden">
+        </TextBox>
+
+    </Grid>
+</Window>

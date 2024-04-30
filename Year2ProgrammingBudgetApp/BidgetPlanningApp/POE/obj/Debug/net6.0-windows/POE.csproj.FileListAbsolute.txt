@@ -1,0 +1,42 @@
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.exe
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.deps.json
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.runtimeconfig.json
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.pdb
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.csproj.AssemblyReference.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE_MarkupCompile.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE_MarkupCompile.lref
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.g.resources
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.AssemblyInfoInputs.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.AssemblyInfo.cs
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.csproj.CoreCompileInputs.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\refint\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.pdb
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.genruntimeconfig.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\ref\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.exe
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.deps.json
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.runtimeconfig.json
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\bin\Debug\net6.0-windows\POE.pdb
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.csproj.AssemblyReference.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE_MarkupCompile.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE_MarkupCompile.lref
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.g.resources
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.AssemblyInfoInputs.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.AssemblyInfo.cs
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.csproj.CoreCompileInputs.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\refint\POE.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.pdb
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\POE.genruntimeconfig.cache
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 2\PROG\POE\Final Final POE\POE\POE\obj\Debug\net6.0-windows\ref\POE.dll
